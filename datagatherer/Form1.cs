@@ -50,7 +50,7 @@ namespace datagatherer
         {
             try
             {
-                var conn = new SQLConnector("MDHSBBB023VLAN.medicine.washington.edu\\SQLEXPRESS", "test", "test",
+                var conn = new SQLConnector("\\SQLEXPRESS", "test", "test",
                     "12345",
                     ref _inf);
                 if (conn.checkDBforComputer())
